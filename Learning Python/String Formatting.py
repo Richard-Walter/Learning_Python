@@ -21,7 +21,7 @@ print(sentence)
 person = {'name': 'Jenn', 'age': 23}
 
 # This wont compile due to single quote used more than once:
-# sentence = f'My name is {person['name']} and I am {person['age']} years old.''age'])
+# sentence = f'My name is {person['name']} and I am {person['age']} years old.')
 
 sentence = f"My name is {person['name']} and I am {person['age']} years old."
 print(sentence)
